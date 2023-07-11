@@ -1,4 +1,43 @@
-# Getting Started with Create React App
+# St. Dominic Catholic Church Miami 
+## A Single Page React Application 
+---
+
+This project is made with much love ❤️ to help St. Dominic Catholic Church reach its members and display relevant/important information to site visitors.
+
+### Background
+This is a lightweight react application built with the most common tools and libraries available. The hope is that it will be easy to navigate and edit by future new comers 🙏. At the end of this readme.md you will find a list of all that was used to build this application along with reference links in case troubleshooting is needed in the future.
+
+---
+## Task List
+- [x] Initialize project
+- [x] Add to Github
+- [ ] Deploy to Netlify
+- [ ] Add responsive component library
+- [ ] Add styling framework
+- [ ] Add routing framework
+- [ ] Add localization framework for English & Spanish
+- [ ] Iterate over content with Users
+- [ ] Deploy to GCP 
+- [ ] Update DNS & Redirect URL to GCP
+
+---
+
+
+### References:
+- Built with [Create React App](https://create-react-app.dev/docs/getting-started). Command used:
+
+  - `yarn create react-app st-dominic --template typescript`
+
+- The Dependency manager (yarn) was then updated to [Yarn Berry](https://yarnpkg.com/getting-started/migration#step-by-step) and configured for [Plug N' Play](https://yarnpkg.com/getting-started/migration#enabling-it) with [Zero Installs](https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored)
+
+  - This caches all dependencies as part of the project itself ensuring dependencies dont change from developer to developer.
+  - Also, the following Yarn plugins were added:
+    - `yarn plugin import typescript` 
+    - `yarn plugin import version`
+
+
+---
+### Documentation from Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -39,8 +78,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

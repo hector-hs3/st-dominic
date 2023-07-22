@@ -11,9 +11,13 @@ This is a lightweight react application built with the most common tools and lib
 ## Task List
 - [x] Initialize project
 - [x] Add to Github
+- [x] Clean up project file structure
+- [ ] Add Global Navigation component (header)
+- [ ] Add Body & Component structure
+- [ ] Add Footer
 - [ ] Deploy to Netlify
 - [ ] Add responsive component library
-- [ ] Add styling framework
+- [x] Add styling framework
 - [ ] Add routing framework
 - [ ] Add localization framework for English & Spanish
 - [ ] Iterate over content with Users
@@ -30,18 +34,20 @@ This is a lightweight react application built with the most common tools and lib
 
 - The Dependency manager (yarn) was then updated to [Yarn Berry](https://yarnpkg.com/getting-started/migration#step-by-step) and configured for [Plug N' Play](https://yarnpkg.com/getting-started/migration#enabling-it) with [Zero Installs](https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored)
 
-  - This caches all dependencies as part of the project itself ensuring dependencies dont change from developer to developer.
+  - This caches all dependencies in the project itself avoiding the need to reinstall everytime project is cloned.
   - Also, the following Yarn plugins were added:
     - `yarn plugin import typescript` 
     - `yarn plugin import version`
 
+- Files and Folders were restructured for better organization 
+- Aliasing was configured in `tsconfig.json` following [THIS](https://create-react-app.dev/docs/importing-a-component/#absolute-imports)
+- SASS was configured using [THIS](https://create-react-app.dev/docs/adding-a-sass-stylesheet)
 
 ---
-### Documentation from Create React App
-
+### Documentation from Create React App:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -49,9 +55,6 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### `yarn test`
 
@@ -63,10 +66,11 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+To run the recently created `build` locally (for testing purposes): 
+- Run the following in the root directory of you system: `yarn global add serve`
+- Run the following in the root of your project: `serve -s build`
 
 ### `yarn eject`
 
@@ -75,6 +79,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 

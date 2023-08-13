@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { PrimeReactProvider } from 'primereact/api';
+
 import './index.css';
-import App from 'components/App';
+import 'primereact/resources/primereact.min.css'; // Core Theme: https://primereact.org/theming/#themes
+
+import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -9,7 +13,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <PrimeReactProvider>
+      <App />
+    </PrimeReactProvider>
   </React.StrictMode>
 );
 

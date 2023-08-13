@@ -5,20 +5,22 @@
 This project is made with much love ❤️ to help St. Dominic Catholic Church reach its members and display relevant/important information to site visitors.
 
 ### Background
-This is a lightweight react application built with the most common tools and libraries available. The hope is that it will be easy to navigate and edit by future new comers 🙏. At the end of this readme.md you will find a list of all that was used to build this application along with reference links in case troubleshooting is needed in the future.
+This is a lightweight react application built with the most common tools and libraries available. The hope is that it will be easy to navigate and edit by future developers 🙏. 
+
+At the end of this readme.md you will find a list of all that was used to build this application along with reference links in case troubleshooting is needed in the future.
 
 ---
 ## Task List
 - [x] Initialize project
 - [x] Add to Github
 - [x] Clean up project file structure
+- [x] Add responsive component library
+- [x] Add styling framework
+- [ ] Add routing framework
 - [ ] Add Global Navigation component (header)
 - [ ] Add Body & Component structure
 - [ ] Add Footer
 - [ ] Deploy to Netlify
-- [ ] Add responsive component library
-- [x] Add styling framework
-- [ ] Add routing framework
 - [ ] Add localization framework for English & Spanish
 - [ ] Iterate over content with Users
 - [ ] Deploy to GCP 
@@ -42,7 +44,7 @@ This is a lightweight react application built with the most common tools and lib
 - Files and Folders were restructured for better organization 
 - Aliasing was configured in `tsconfig.json` following [THIS](https://create-react-app.dev/docs/importing-a-component/#absolute-imports)
 - SASS was configured using [THIS](https://create-react-app.dev/docs/adding-a-sass-stylesheet)
-
+- PrimeReact chosen as the component library and installed by following [THIS](https://primereact.org/installation/)
 ---
 ### Documentation from Create React App:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -17,7 +17,7 @@ At the end of this readme.md you will find a list of all that was used to build 
 - [x] Add responsive component library
 - [x] Add styling framework
 - [ ] Add routing framework
-- [ ] Add Global Navigation component (header)
+- [WIP] Add Global Navigation component (header)
 - [ ] Add Body & Component structure
 - [ ] Add Footer
 - [ ] Deploy to Netlify
@@ -27,7 +27,9 @@ At the end of this readme.md you will find a list of all that was used to build 
 - [ ] Update DNS & Redirect URL to GCP
 
 ---
-
+### Making Edits:
+- Available Icons from PrimeReact are found [HERE](https://primereact.org/icons/#list)
+---
 
 ### References:
 - Built with [Create React App](https://create-react-app.dev/docs/getting-started). Command used:

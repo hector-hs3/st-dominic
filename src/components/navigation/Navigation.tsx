@@ -1,23 +1,26 @@
 import React from "react";
 import styles from './Navigation.module.scss';
-import { NavMenu } from "configs/navigation_menu";
+import Logo from 'assets/dominican-order.png';
+import { NavMenu } from "configs/navigation";
+import { NavigationItem } from "types";
+import { Menubar } from 'primereact/menubar';
+import { MenuItem } from "primereact/menuitem";
 
 export default function Navigation(): React.JSX.Element {
 
+  const logo = <img alt='logo' src={Logo} height="40"></img>
   return (
-    <div className={styles.container}>
-      <div className={styles.logo}>
-
-      </div>
-      <div className={styles.nav}>
-        <ul>
-          {NavMenu.map((item, idx) => {
-            if (item.enabled) return (
-              <li>{item.title}</li>
-            )
-          })}
-        </ul>
-      </div>
-    </div>
+      <Menubar 
+        className={styles.navBar}
+        model={convertToMenuItem(NavMenu)} 
+        end={logo} 
+      />
   )
+}
+
+function convertToMenuItem(menu: NavigationItem[]): MenuItem[] {
+  return menu.map(item => {
+    const {path, ...rest} = item;
+    return rest;
+  })
 }

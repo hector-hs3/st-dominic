@@ -40,6 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.45.0"],\
             ["eslint-config-react-app", "virtual:b55b063a84ffe9eef5bb73a368d4f0c8f2f90afebe46c9882b8c305405b083c507fb47fae1dbb387ee6986ac150a5f0ca7883b880eaa3b0d7b3d1236933f0a32#npm:7.0.1"],\
             ["eslint-plugin-react", "virtual:b55b063a84ffe9eef5bb73a368d4f0c8f2f90afebe46c9882b8c305405b083c507fb47fae1dbb387ee6986ac150a5f0ca7883b880eaa3b0d7b3d1236933f0a32#npm:7.33.0"],\
+            ["primeicons", "npm:6.0.1"],\
             ["primereact", "virtual:b55b063a84ffe9eef5bb73a368d4f0c8f2f90afebe46c9882b8c305405b083c507fb47fae1dbb387ee6986ac150a5f0ca7883b880eaa3b0d7b3d1236933f0a32#npm:9.6.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:b55b063a84ffe9eef5bb73a368d4f0c8f2f90afebe46c9882b8c305405b083c507fb47fae1dbb387ee6986ac150a5f0ca7883b880eaa3b0d7b3d1236933f0a32#npm:18.2.0"],\
@@ -14839,6 +14840,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["primeicons", [\
+        ["npm:6.0.1", {\
+          "packageLocation": "./.yarn/cache/primeicons-npm-6.0.1-11d1ab20ef-a1412fee16.zip/node_modules/primeicons/",\
+          "packageDependencies": [\
+            ["primeicons", "npm:6.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["primereact", [\
         ["npm:9.6.1", {\
           "packageLocation": "./.yarn/cache/primereact-npm-9.6.1-f7742de12a-e69f0f7718.zip/node_modules/primereact/",\
@@ -16293,6 +16303,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.45.0"],\
             ["eslint-config-react-app", "virtual:b55b063a84ffe9eef5bb73a368d4f0c8f2f90afebe46c9882b8c305405b083c507fb47fae1dbb387ee6986ac150a5f0ca7883b880eaa3b0d7b3d1236933f0a32#npm:7.0.1"],\
             ["eslint-plugin-react", "virtual:b55b063a84ffe9eef5bb73a368d4f0c8f2f90afebe46c9882b8c305405b083c507fb47fae1dbb387ee6986ac150a5f0ca7883b880eaa3b0d7b3d1236933f0a32#npm:7.33.0"],\
+            ["primeicons", "npm:6.0.1"],\
             ["primereact", "virtual:b55b063a84ffe9eef5bb73a368d4f0c8f2f90afebe46c9882b8c305405b083c507fb47fae1dbb387ee6986ac150a5f0ca7883b880eaa3b0d7b3d1236933f0a32#npm:9.6.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:b55b063a84ffe9eef5bb73a368d4f0c8f2f90afebe46c9882b8c305405b083c507fb47fae1dbb387ee6986ac150a5f0ca7883b880eaa3b0d7b3d1236933f0a32#npm:18.2.0"],\

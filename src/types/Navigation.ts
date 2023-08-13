@@ -1,7 +1,8 @@
 export type NavigationItem = {
-  title: string;
-  url: string;
-  enabled: boolean;
-  topLevel: boolean;
+  id: string;
+  label: string;
   icon: string;
+  path: string;
+  disabled?: boolean;
+  visible?: boolean;
 }

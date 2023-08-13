@@ -1,0 +1,7 @@
+.navBar {
+  > [class~="p-menubar-end"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

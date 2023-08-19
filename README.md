@@ -16,7 +16,7 @@ At the end of this readme.md you will find a list of all that was used to build 
 - [x] Clean up project file structure
 - [x] Add responsive component library
 - [x] Add styling framework
-- [ ] Add routing framework
+- [x] Add routing framework
 - [WIP] Add Global Navigation component (header)
 - [ ] Add Body & Component structure
 - [ ] Add Footer

@@ -1,8 +1,8 @@
 import { NavigationItem } from "types";
 import { PrimeIcons } from "primereact/api";
 
-enum Paths {
-  HOME = '',
+export enum Paths {
+  HOME = '/',
   CALENDAR = '/calendar',
   SACRAMENTS = '/sacraments',
   PARISH = '/parish',

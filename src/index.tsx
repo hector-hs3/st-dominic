@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client';
 import { PrimeReactProvider } from 'primereact/api';
 
 // import './index.css';
-import 'primereact/resources/primereact.min.css'; // Core Theme: https://primereact.org/theming/#themes
-import 'primereact/resources/themes/mdc-light-indigo/theme.css';
-import 'primeicons/primeicons.css'; 
+// import 'primereact/resources/primereact.min.css'; // Core Theme: https://primereact.org/theming/#themes
+// import 'primereact/resources/themes/mdc-light-indigo/theme.css';
+// import 'primeicons/primeicons.css'; 
 
-import App from './components/App';
+import App from './app/App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(

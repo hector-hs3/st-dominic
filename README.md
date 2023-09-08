@@ -25,7 +25,7 @@ At the end of this readme.md you will find a list of all that was used to build 
 - [WIP] Add Global Navigation component (header)
 - [ ] Add Body & Component structure
 - [ ] Add Footer
-- [ ] Deploy to Github pages
+- [x] Deploy to Github pages
 - [ ] Add localization framework for English & Spanish
 - [ ] Iterate over content with Users
 - [ ] Deploy to GCP

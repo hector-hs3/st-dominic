@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/st-dominic/static/js/main.5b80818f.js",
-    "static/js/421.2b720423.chunk.js": "/st-dominic/static/js/421.2b720423.chunk.js",
-    "index.html": "/st-dominic/index.html",
-    "main.5b80818f.js.map": "/st-dominic/static/js/main.5b80818f.js.map",
-    "421.2b720423.chunk.js.map": "/st-dominic/static/js/421.2b720423.chunk.js.map"
+    "main.js": "./static/js/main.0ca64ac2.js",
+    "static/js/421.2b720423.chunk.js": "./static/js/421.2b720423.chunk.js",
+    "index.html": "./index.html",
+    "main.0ca64ac2.js.map": "./static/js/main.0ca64ac2.js.map",
+    "421.2b720423.chunk.js.map": "./static/js/421.2b720423.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.5b80818f.js"
+    "static/js/main.0ca64ac2.js"
   ]
 }

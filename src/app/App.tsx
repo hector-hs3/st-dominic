@@ -8,14 +8,14 @@ import Parish from "components/Parish";
 import Resources from "components/Resources";
 
 import {
-  createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
   Route,
   RouterProvider,
 } from "react-router-dom";
 import { Paths } from "configs/navigation";
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path={Paths.HOME} element={<Root />} errorElement={<Error />}>
       <Route index element={<Home />} />
@@ -28,6 +28,7 @@ const router = createBrowserRouter(
 );
 
 function App() {
+  console.log("App runnning");
   return (
     <>
       <RouterProvider router={router} />

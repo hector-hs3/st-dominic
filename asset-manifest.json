@@ -1,12 +1,18 @@
 {
   "files": {
-    "main.js": "./static/js/main.0ca64ac2.js",
+    "main.css": "./static/css/main.d22c9fbf.css",
+    "main.js": "./static/js/main.3b43c1c8.js",
     "static/js/421.2b720423.chunk.js": "./static/js/421.2b720423.chunk.js",
+    "static/media/CormorantGaramond-Regular.ttf": "./static/media/CormorantGaramond-Regular.4114a151797af532cace.ttf",
+    "static/media/dominican-order.png": "./static/media/dominican-order.9c943084e6998f850b12.png",
+    "static/media/BerkshireSwash-Regular.ttf": "./static/media/BerkshireSwash-Regular.deb8b610d048e614dbbf.ttf",
     "index.html": "./index.html",
-    "main.0ca64ac2.js.map": "./static/js/main.0ca64ac2.js.map",
+    "main.d22c9fbf.css.map": "./static/css/main.d22c9fbf.css.map",
+    "main.3b43c1c8.js.map": "./static/js/main.3b43c1c8.js.map",
     "421.2b720423.chunk.js.map": "./static/js/421.2b720423.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.0ca64ac2.js"
+    "static/css/main.d22c9fbf.css",
+    "static/js/main.3b43c1c8.js"
   ]
 }

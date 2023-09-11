@@ -28,7 +28,6 @@ const router = createHashRouter(
 );
 
 function App() {
-  console.log("App runnning");
   return (
     <>
       <RouterProvider router={router} />

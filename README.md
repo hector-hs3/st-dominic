@@ -49,6 +49,8 @@ At the end of this readme.md you will find a list of all that was used to build 
 - Files and Folders were restructured for better organization
 - Aliasing was configured in `tsconfig.json` following [THIS](https://create-react-app.dev/docs/importing-a-component/#absolute-imports)
 - SASS was configured using [THIS](https://create-react-app.dev/docs/adding-a-sass-stylesheet)
+- Deployment to Github Pages achieved by following [THIS](https://create-react-app.dev/docs/deployment/#github-pages)
+  - We had to ignore Step 1 and use `"homepage": "."` instead of the full URL.
 
 ---
 
@@ -89,3 +91,11 @@ To run the recently created `build` locally (for testing purposes):
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+---
+
+### Deployment to Github Pages:
+
+After the latest changes have been committed and ready to be deployed, simply run the following command:
+
+#### `yarn build && yarn deploy`

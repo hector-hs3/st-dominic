@@ -1,0 +1,55 @@
+// GLOBAL STYLE CONFIGURATIONS
+
+// Font Declarations:
+@font-face {
+  font-family: "BerkshireSwash";
+  src: url("/assets/BerkshireSwash-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "CormorantGaramond";
+  src: url("/assets/CormorantGaramond-Regular.ttf") format("truetype");
+}
+
+// FONTS:
+$font-family: "CormorantGaramond",
+  // Safari for OS X and iOS (San Francisco)
+  -apple-system,
+  // Chrome < 56 for OS X (San Francisco)
+  BlinkMacSystemFont,
+  // Windows
+  "Segoe UI",
+  // Android
+  "Roboto",
+  // Basic web fallback
+  "Helvetica Neue",
+  Arial, sans-serif,
+  // Emoji fonts
+  "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+$font: $font-family;
+$titleFont: "BerkshireSwash";
+
+// COLOR PALLET:
+$backgroundColor: #d1c29a;
+$lightBackgroundColor: #fcfcea;
+$footerThemeColor: #c9a758;
+$themeColor: #a11111;
+$highlightedThemeColor: #90c6ef;
+
+$darkColor: #43464b;
+$mediumTextColor: gray;
+$darkTextColor: DarkSlateGray;
+
+$white: white;
+$black: black;
+$green: #4ca952;
+$blue: #1a357a;
+$lightGrey: #e1e5ea;
+$grey: #dddddd;
+
+$paddingDesktop: 24px;
+$paddingMobile: 18px;
+$appTopMargin: 90px;
+$siteFooterHeight: 24rem;
+$siteMobileFooterHeight: 42rem;

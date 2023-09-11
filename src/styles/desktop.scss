@@ -1,0 +1,44 @@
+@import "./variables";
+
+header {
+  background-color: $backgroundColor;
+  padding: $paddingDesktop;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .title {
+    font-family: $titleFont;
+    font-size: 1.5rem;
+    color: $themeColor;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: $paddingDesktop;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.75rem;
+
+    a {
+      text-decoration: none;
+      font-size: 1.25rem;
+      color: $black;
+    }
+  }
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 100px 0;
+}
+
+footer {
+  background-color: $backgroundColor;
+  color: $white;
+  padding: $paddingDesktop;
+}

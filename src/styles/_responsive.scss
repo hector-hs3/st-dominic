@@ -1,0 +1,23 @@
+// Responsive Breakpoints
+// mobile:    320px - 480px:
+// tablet:    480px - 1024px:
+// laptop:    1024px - 1600px:
+
+// media query mixins
+@mixin mobile {
+  @media only screen and (max-width: 479px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and (min-width: 480px) and (max-width: 1023px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media only screen and (min-width: 1024px) {
+    @content;
+  }
+}

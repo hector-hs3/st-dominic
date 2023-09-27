@@ -1,8 +1,8 @@
+@import "/src//styles/normalize";
 @import "/src/styles/variables";
 @import "/src/styles/desktop.scss";
 
 body {
-  margin: 0;
   font-family: $font;
   background-color: $lightBackgroundColor;
 }

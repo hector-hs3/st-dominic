@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <footer>
-      Footer Place Holder...
+      <div className="content">Footer Place Holder...</div>
     </footer>
-  )
+  );
 }

@@ -43,6 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gh-pages", "npm:6.0.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:b55b063a84ffe9eef5bb73a368d4f0c8f2f90afebe46c9882b8c305405b083c507fb47fae1dbb387ee6986ac150a5f0ca7883b880eaa3b0d7b3d1236933f0a32#npm:18.2.0"],\
+            ["react-icons", "virtual:b55b063a84ffe9eef5bb73a368d4f0c8f2f90afebe46c9882b8c305405b083c507fb47fae1dbb387ee6986ac150a5f0ca7883b880eaa3b0d7b3d1236933f0a32#npm:4.11.0"],\
             ["react-router-dom", "virtual:b55b063a84ffe9eef5bb73a368d4f0c8f2f90afebe46c9882b8c305405b083c507fb47fae1dbb387ee6986ac150a5f0ca7883b880eaa3b0d7b3d1236933f0a32#npm:6.15.0"],\
             ["react-scripts", "virtual:b55b063a84ffe9eef5bb73a368d4f0c8f2f90afebe46c9882b8c305405b083c507fb47fae1dbb387ee6986ac150a5f0ca7883b880eaa3b0d7b3d1236933f0a32#npm:5.0.1"],\
             ["sass", "npm:1.64.1"],\
@@ -15190,6 +15191,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-icons", [\
+        ["npm:4.11.0", {\
+          "packageLocation": "./.yarn/cache/react-icons-npm-4.11.0-08184d1639-7b8b80bbe2.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "npm:4.11.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:b55b063a84ffe9eef5bb73a368d4f0c8f2f90afebe46c9882b8c305405b083c507fb47fae1dbb387ee6986ac150a5f0ca7883b880eaa3b0d7b3d1236933f0a32#npm:4.11.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-icons-virtual-c1c1aa54a8/0/cache/react-icons-npm-4.11.0-08184d1639-7b8b80bbe2.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "virtual:b55b063a84ffe9eef5bb73a368d4f0c8f2f90afebe46c9882b8c305405b083c507fb47fae1dbb387ee6986ac150a5f0ca7883b880eaa3b0d7b3d1236933f0a32#npm:4.11.0"],\
+            ["@types/react", "npm:18.2.14"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react-is", [\
         ["npm:16.13.1", {\
           "packageLocation": "./.yarn/cache/react-is-npm-16.13.1-a9b9382b4f-f7a19ac349.zip/node_modules/react-is/",\
@@ -16313,6 +16336,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gh-pages", "npm:6.0.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:b55b063a84ffe9eef5bb73a368d4f0c8f2f90afebe46c9882b8c305405b083c507fb47fae1dbb387ee6986ac150a5f0ca7883b880eaa3b0d7b3d1236933f0a32#npm:18.2.0"],\
+            ["react-icons", "virtual:b55b063a84ffe9eef5bb73a368d4f0c8f2f90afebe46c9882b8c305405b083c507fb47fae1dbb387ee6986ac150a5f0ca7883b880eaa3b0d7b3d1236933f0a32#npm:4.11.0"],\
             ["react-router-dom", "virtual:b55b063a84ffe9eef5bb73a368d4f0c8f2f90afebe46c9882b8c305405b083c507fb47fae1dbb387ee6986ac150a5f0ca7883b880eaa3b0d7b3d1236933f0a32#npm:6.15.0"],\
             ["react-scripts", "virtual:b55b063a84ffe9eef5bb73a368d4f0c8f2f90afebe46c9882b8c305405b083c507fb47fae1dbb387ee6986ac150a5f0ca7883b880eaa3b0d7b3d1236933f0a32#npm:5.0.1"],\
             ["sass", "npm:1.64.1"],\

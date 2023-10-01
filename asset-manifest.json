@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.e1112b6b.css",
-    "main.js": "./static/js/main.e28687c1.js",
+    "main.css": "./static/css/main.59228387.css",
+    "main.js": "./static/js/main.21f10eb7.js",
     "static/js/421.2b720423.chunk.js": "./static/js/421.2b720423.chunk.js",
     "static/media/PlayfairDisplay-VariableFont_wght.ttf": "./static/media/PlayfairDisplay-VariableFont_wght.20240034b80f50c3ad00.ttf",
     "static/media/dominican-order.png": "./static/media/dominican-order.9c943084e6998f850b12.png",
     "static/media/Cinzel-VariableFont_wght.ttf": "./static/media/Cinzel-VariableFont_wght.2d087b545bf495f3d86d.ttf",
     "index.html": "./index.html",
-    "main.e1112b6b.css.map": "./static/css/main.e1112b6b.css.map",
-    "main.e28687c1.js.map": "./static/js/main.e28687c1.js.map",
+    "main.59228387.css.map": "./static/css/main.59228387.css.map",
+    "main.21f10eb7.js.map": "./static/js/main.21f10eb7.js.map",
     "421.2b720423.chunk.js.map": "./static/js/421.2b720423.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1112b6b.css",
-    "static/js/main.e28687c1.js"
+    "static/css/main.59228387.css",
+    "static/js/main.21f10eb7.js"
   ]
 }

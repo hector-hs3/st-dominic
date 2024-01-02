@@ -1,0 +1,9 @@
+{
+  "navigation": {
+    "home": "Home",
+    "calendar": "Calendar",
+    "sacraments": "Sacraments",
+    "parish": "Parish Life",
+    "resources": "Resources"
+  }
+}

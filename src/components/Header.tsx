@@ -4,8 +4,10 @@ import { NavLink } from "react-router-dom";
 import Logo from "assets/dominican-order.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IconContext } from "react-icons/lib";
+import { useTranslation } from "react-i18next";
 
 export default function Header() {
+  const { t } = useTranslation();
   const [showMenu, setShowMenu] = useState(false);
   const handleClick = () => setShowMenu((prev) => !prev);
   const handleClickInDesktop = () => {
@@ -27,7 +29,7 @@ export default function Header() {
           onClick={handleClickInDesktop}
         >
           {NavMenu.map((item) => (
-            <NavLink to={item.path}>{item.label}</NavLink>
+            <NavLink to={item.path}>{t(`navigation.${item.id}`)}</NavLink>
           ))}
         </div>
         <div className="menu-icon">
